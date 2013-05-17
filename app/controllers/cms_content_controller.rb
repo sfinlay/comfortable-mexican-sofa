@@ -1,5 +1,5 @@
-# class CmsContentController < BaseController
-class CmsContentController < ApplicationController  
+class CmsContentController < BaseController
+#class CmsContentController < ApplicationController  
   # Authentication module must have #authenticate method
   include ComfortableMexicanSofa.config.public_auth.to_s.constantize
   
